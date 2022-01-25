@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title></title>
+  <script src="Https://git.joydeb.xyz/random-quote.js"></script>
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 5px;
+    }
+
+    html {
+      font-family: 'Open Sans', sans-serif;
+      color: #111;
+      font-size: 4.5vw;
+      background-color: #222;
+      text-align: center;
+    }
+
+    .container.card {
+      margin-top: 50%;
+      background-color: #aaa;
+      border-radius: 5px;
+      box-shadow: -5px -4px 47px 3px rgba(198, 198, 198, 0.3);
+      text-align: center;
+      padding-bottom: 3.6rem;
+      padding-top: 3.6rem
+    }
+
+    .footer {
+      color: #fff;
+      padding-top: 60%;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="container card">
+    <script>
+      getQuote();
+    </script>
+  </div>
+  <p class="footer" id="xyz">Joydeb</p>
+</body>
+<script>
+  let js = document.querySelector("#xyz");
+  js.addEventListener("click", (e) => {
+    window.open('https://link.joydeb.xyz/linktree', 'Joydeb');
+  });
+</script>
+
+</html>
