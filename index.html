@@ -7,52 +7,36 @@
   <title>Random Quote</title>
   <link rel="shortcut icon" href="https://joydeb.xyz/Favicon/favicon.ico">
   <script src="Https://git.joydeb.xyz/random-quote.js"></script>
-  <style>
-    * {
-      box-sizing: border-box;
-      margin: 5px;
-    }
-
-    html {
-      font-family: 'Open Sans', sans-serif;
-      color: #111;
-      font-size: 1rem;
-      background-color: #222;
-      text-align: center;
-    }
-
-    .container.card {
-      margin-top: 40%;
-      background-color: #aaa;
-      border-radius: 5px;
-      box-shadow: -5px -4px 47px 3px rgba(198, 198, 198, 0.3);
-      text-align: center;
-      padding-bottom: 3.6rem;
-      padding-top: 3.6rem
-    }
-
-    .footer {
-      color: #fff;
-      position: absolute;
-      bottom: 5px;
-      padding-left: 40vw;
-    }
-  </style>
-</head>
-
-<body>
-  <div class="container card">
-    <script>
+    <style>
+      .header {
+        height: 40px;
+        padding: 20px 20px 0;
+        background: #e1e1e1;
+      }
+      .main-content {
+        height: 60vh;
+        padding: 20px;
+      }
+      footer {
+        padding: 10px 20px;
+        background: #666;
+        color: white;
+      }
+      a {
+        color: #00aaff;
+      }
+    </style>
+  </head>
+  <body align="center">
+    <div class="header"><a href="https://www.joydeb.xyz/" rel="dofollow">Joydeb.xyz</a> / Quote</div>
+    <div class="main-content">
+      <h1>Content</h1>
+      <p><script>
       getQuote();
-    </script>
-  </div>
-  <p class="footer" id="xyz">Joydeb</p>
-</body>
-<script>
-  let js = document.querySelector("#xyz");
-  js.addEventListener("click", (e) => {
-    window.open('https://link.joydeb.xyz/linktree', 'Joydeb');
-  });
-</script>
-
+    </script></p>
+    </div>
+    <footer>
+      <p>Company © W3docs. All rights reserved.</p>
+    </footer>
+  </body>
 </html>
